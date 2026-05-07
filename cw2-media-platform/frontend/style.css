@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f3f4f6;
+    color: #1f2937;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #111827, #374151);
+    color: white;
+    padding: 32px 50px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 34px;
+  }
+  
+  header p {
+    margin: 8px 0 0;
+    color: #d1d5db;
+  }
+  
+  nav {
+    background: white;
+    padding: 18px 50px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  nav a {
+    background: #111827;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav a:hover,
+  button:hover {
+    background: #374151;
+  }
+  
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 26px;
+    padding: 35px 50px;
+  }
+  
+  .media-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .media-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  }
+  
+  .media-card img,
+  .media-card video {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    background: #e5e7eb;
+  }
+  
+  .audio-box {
+    padding: 30px;
+    background: #e5e7eb;
+  }
+  
+  .audio-box audio {
+    width: 100%;
+  }
+  
+  .media-content {
+    padding: 20px;
+  }
+  
+  .media-content h3 {
+    margin: 0 0 8px;
+    font-size: 21px;
+  }
+  
+  .media-content p {
+    color: #4b5563;
+    line-height: 1.5;
+    min-height: 45px;
+  }
+  
+  .media-content small {
+    color: #6b7280;
+    font-size: 13px;
+  }
+  
+  .media-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  
+  button {
+    background: #111827;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .delete-btn {
+    background: #b91c1c;
+  }
+  
+  .delete-btn:hover {
+    background: #7f1d1d;
+  }
+  
+  form {
+    background: white;
+    max-width: 650px;
+    margin: 45px auto;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 9px;
+    font-size: 15px;
+  }
+  
+  textarea {
+    min-height: 130px;
+  }
+  
+  #message {
+    margin-top: 18px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 700px) {
+    header,
+    nav,
+    #gallery {
+      padding-left: 22px;
+      padding-right: 22px;
+    }
+  }

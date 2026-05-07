@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <header>
+        <h1>Upload Media</h1>
+        <p>Add a new image, video or audio file to cloud storage.</p>
+      </header>
+    <link rel="stylesheet" href="style.css">
+  <title>Upload Media</title>
+</head>
+<body>
+  <h1>Upload Media</h1>
+
+  <a href="index.html">Back to Gallery</a>
+
+  <br><br>
+
+  <form id="uploadForm">
+    <input type="text" id="title" placeholder="Title" required><br><br>
+    <textarea id="description" placeholder="Description"></textarea><br><br>
+    <input type="file" id="file" required><br><br>
+    <button type="submit">Upload</button>
+  </form>
+
+  <p id="message"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
