@@ -38,3 +38,31 @@ Frontend App Service → Azure Functions API → Blob Storage + Cosmos DB
 
 ## Coursework Focus
 This project demonstrates scalable cloud-native development using Azure services, REST APIs, serverless backend logic, cloud storage, NoSQL metadata storage, and deployed web application functionality.
+## Screenshots
+
+### Live Gallery
+![Gallery](screenshots/gallerypage.jpg)
+
+### Upload Page
+![Upload](screenshots/uploadpage.jpg)
+
+### Cosmos DB
+![Cosmos DB](screenshots/cosmos db.jpg)
+
+### Blob Storage
+![Blob Storage](screenshots/Blob storage.jpg)
+
+### Function App
+![Function App](screenshots/fuction app.jpg)
+
+### Environment Variables
+![Environment Variables](screenshots/Environment variables.jpg)
+
+### Application Insights
+![Application Insights](screenshots/app insight.jpg)
+
+### Failures Monitoring
+![Failures](screenshots/failures.jpg)
+
+### Live Metrics
+![Live Metrics](screenshots/live metrics.jpg)
